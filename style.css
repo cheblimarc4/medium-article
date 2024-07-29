@@ -1,0 +1,78 @@
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 768px) {
+  .container {
+    width: 578px;
+  }
+}
+@media(max-width: 576px) {
+  .container {
+    width: 375px;
+  }
+}
+
+
+.banner {
+  background-image: url("https://emprendedoresnews.com/wp-content/uploads/2019/04/le_wagon-e1556052555247-630x375.jpg.webp");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.banner h1 {
+  font-size: 38px;
+  display: block;
+}
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+p{
+  display: block;
+}
+
+h1,h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: "lora", serif;
+  font-weight: lighter;
+}
+
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+h2{
+  color: #A0A0A0;
+  font-weight: normal;
+}
+
+.link-btn {
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, rgb(0, 255, 89), rgb(174, 249, 201));
+    color: #636363;
+    font-weight: lighter;
+    font-size: 25px;
+    font-style: italic;
+}
+.link-btn:hover{
+  color: rgb(2, 54, 2);
+}
